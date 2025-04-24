@@ -19,12 +19,16 @@ public class Encuesta_Clase {
         
         System.out.println("Ingrese su nombre");
         String nombre = Datos.nextLine();
+        
         System.out.println("Ingrese su carrera");
         String carrera = Datos.nextLine();
+        
         System.out.println("Ingrese su edad");
-        int edad = Datos.nextInt();
+        Integer edad = Integer.valueOf(Datos.nextLine());
+        
         System.out.println("Ingrese su numero");
-        long numero = Datos.nextLong();
+        Long numero = Long.valueOf(Datos.nextLine());
+
 
 
        
